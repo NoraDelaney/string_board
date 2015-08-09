@@ -54,7 +54,7 @@ if sum_array.count(sum_array.max) > 1
     end
   end
 else
-  puts "Board with solid rows and columns:"
+  puts "Board with most solid rows and columns:"
   puts
   puts array_of_rects[sum_array.index(sum_array.max)].map(&:join)
 end
